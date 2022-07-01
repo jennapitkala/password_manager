@@ -58,7 +58,7 @@ def on_press(key):
         cursor_up()
 
 
-
+print("this goes on git")
 listener = keyboard.Listener(on_press=on_press)
 listener.start()
 display_menu()
